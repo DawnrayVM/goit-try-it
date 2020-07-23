@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1600px;
+  min-height: 81px;
+}
+
+.main-nav-item {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px; /* Отступ слева */
+  border: 0px;
+  padding: 3px; /* Поля вокруг текста */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.main-nav-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-top: 32px;
+}
+
+.main-nav-list-contact {
+  display: flex;
+  flex-direction: row;
+  margin-left: 305px;
+  margin-top: 32px;
+}
+
+.email-img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  margin-right: 2.8px;
+}
+
+.tel-img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  margin-right: 2.8px;
+}
+
+.main-title {
+  margin-top: 24px;
+  margin-left: 215px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.order-div {
+  margin: 0 auto;
+  max-width: 1600px;
+  min-height: 600px;
+  background-image: url(/goit-try-it/img/Header-img.svg);
+}
+.order-now {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: roboto;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 700px;
+}

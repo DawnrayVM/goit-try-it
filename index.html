@@ -1,18 +1,85 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link style="stylesheet" href="./css/styles.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset="UTF-8" />
     <link
-      rel="shortcut icon"
-      href="/goit-try-it/Jenkins_logo_with_title.svg"
-      type="image/svg"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
-      voluptates?
+      Web Studio
     </title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <a
+          href="index.html"
+          lang="en"
+          class="main-title"
+          style="text-decoration: none;"
+          >Web <span style="color: black;">Studio</span></a
+        >
+        <ul class="main-nav-list">
+          <li class="main-nav-item">Студия</li>
+          <li class="main-nav-item">Портфолио</li>
+          <li class="main-nav-item">Контакты</li>
+        </ul>
+      </nav>
+      <address>
+        <ul class="main-nav-list-contact">
+          <li class="main-nav-item">
+            <img
+              src="./img/envelope.svg"
+              class="email-img"
+              height="11,2px"
+              width="16px"
+            />
+            <a href="mailto:info@devstudio.com" style="text-decoration: none;"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="main-nav-item">
+            <img
+              src="./img/smartphone.svg"
+              class="tel-img"
+              height="15px"
+              width="10px"
+            />
+            <a href="tel:+38 096 111 11 11" style="text-decoration: none;"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <hr />
+    </header>
+    <div class="order-div">
+      <p
+        style="
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 44px;
+          line-height: 60px;
+          color: #fff;
+          text-align: center;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+          display: flex;
+          flex-direction: row;
+          padding-top: 280px;
+          padding-left: 537px;
+        "
+      >
+        Эффективные решения<br />для вашего бизнеса
+      </p>
+      <button type="button" class="order-now">Заказать услугу</button>
+    </div>
+  </body>
 </html>
