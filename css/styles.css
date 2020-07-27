@@ -73,7 +73,7 @@
   margin: 0 auto;
   max-width: 1600px;
   min-height: 600px;
-  background-image: url(/goit-try-it/img/Header-img.svg);
+  background-image: url(/img/Header-img.svg);
 }
 .order-now {
   width: 200px;
@@ -87,4 +87,11 @@
   color: #fff;
   margin-top: 30px;
   margin-left: 700px;
+}
+
+path {
+  fill: gray;
+}
+path:hover {
+  fill: #2196f3;
 }
